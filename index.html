@@ -6,10 +6,19 @@
         <title>Meu Primeiro Website</title>
         <link rel="stylesheet" href=css/styles.css>
 
+        <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        .content p{
+
+            font-family:'Open Sans';
+        }
+
+        </style>
+
     </head>
 
     <body>
-
         <!-- 
             -block elements - se aplicam a todo um bloco. 
             -inline elements - podem ser utilizados  um do lado do outro. 
@@ -32,18 +41,34 @@
 
             Propriedades:
             color, muda a cor do texto
-
         -->
 
-        <h1 title="Títiulo do Artigo">Após críticas no Vale do Silício, presidente do Uber deixará de ser conselheiro de Trump, diz jornal.</h1>
+        <div class="navigation">
 
-        <h2>Travis Kalanick pertencia ao conselho econômico de Trump; comunidade tecnológica é contrária à política de imigração imposta pelo
-        presidente americano.</h2>
+            <h1>ECONOMIA</h1>
+            <h2>Negocios</h2>  
 
-        <h5>Por G1 <br>02/02/2017 20h22 Atualizado 02/02/2017 20h43</h5>
+        </div>
+
+
+
+        <div class="tituloArtigo">
+
+            <h1 title="Títiulo do Artigo">Após críticas no Vale do Silício, presidente do Uber deixará de ser conselheiro de Trump, diz jornal.</h1>
+
+            <h2>Travis Kalanick pertencia ao conselho econômico de Trump; comunidade tecnológica é contrária à política de imigração imposta pelo
+            presidente americano.</h2>
+
+        </div>
+
+
+
+        <div class="content">
+
+        <h4><b>Por G1</b><br>
+        02/02/2017 20h22 Atualizado 02/02/2017 20h43</h4>
 
         <img src="img/uber.jpg" alt="Foto de Travis Kalanick, presidente do uber">
-       
 
         <h3><p>O presidente do Uber, Travis Kalanick, deixará o conselho econômico criado pelo presidente americano Donald Trump, de acordo com
         informações do jornal The New York Times. A presença de Kalanick no grupo foi alvo de críticas da comunidade empresarial do Vale do
@@ -63,6 +88,10 @@
 
         <a href="https://g1.globo.com/economia/negocios/noticia/microsoft-pede-para-governo-trump-programa-de-excecao-em-pedidos-de-imigracao.ghtml"
         >Microsoft pede para Trump programa de exceção em pedidos de imigração</a>
+
+        </div>
+
+
 
     </body>
 
