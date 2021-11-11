@@ -1,6 +1,6 @@
 body{ 
     text-align: center;
-    font-family: arial;
+    font-family: Open Sans;
 }
 
 
@@ -25,6 +25,10 @@ figcaption{
 
 
 
+
+
+
+
 .navigation{
     background-color: #c4170c;
     color: white; 
@@ -41,6 +45,8 @@ figcaption{
 
 
 
+
+
 .tituloArtigo{
     margin-left: 500px;
     margin-right: 500px;
@@ -51,7 +57,7 @@ figcaption{
 .tituloArtigo h1{
     font-size: 56px; 
     line-height: 60px;
-    font-family: Open Sans;
+    font-weight: 700;
 }
 
 .tituloArtigo h2{
@@ -93,5 +99,7 @@ figcaption{
     font-size: 20px;
     color:#333333;
     line-height: 30px;
+    font-weight: 400;
+
 }
 
