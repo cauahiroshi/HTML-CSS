@@ -1,2 +1,3 @@
 # html-css
-Criando este repositório para armazenar o conteúdo utilizado para aprender conceitos de html e css. 
+Criando este repositório para armazenar os conteúdo utilizados na aprendizagem de html e css. 
+
